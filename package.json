@@ -1,0 +1,29 @@
+{
+  "name": "react-training-movies-database-ssr",
+  "version": "1.0.0",
+  "description": "Movies Database Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Teodora Boneva",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^6.0.3",
+    "next-redux-saga": "^3.0.0-beta.2",
+    "next-redux-wrapper": "^2.0.0-beta.6",
+    "node-sass": "^4.9.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-loading": "^2.0.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-saga": "^0.16.0"
+  }
+}
